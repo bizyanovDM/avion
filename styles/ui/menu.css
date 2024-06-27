@@ -1,0 +1,14 @@
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.menu__item {
+    color: var(--color-gray);
+    transition: color 0.8s;
+}
+
+.menu__item:hover {
+    color: var(--color-black);
+}

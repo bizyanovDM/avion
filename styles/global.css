@@ -1,5 +1,6 @@
 body {
     font-family: var(--font-family);
+    color: var(--color-black);
 }
 
 .container {
@@ -15,8 +16,16 @@ body {
     --padding-inline: 27px;
 }
 
+.hr-solid {
+    border: none;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-block: 20px;
+}
+
 @media screen and (max-width: 730px) {
-    .container, .container_wide {
+    .container, 
+    .container_wide {
         --padding-inline: 24px;
     }
 }
