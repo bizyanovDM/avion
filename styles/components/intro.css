@@ -1,0 +1,77 @@
+.intro {
+    background-image: url(../../images/hero__banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 130px 80px;
+}
+
+.intro .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.intro__wrapper {
+    background-color: var(--color-white);
+    padding: 48px 61px 48px 56px;
+}
+
+.intro__title {
+    font-family: var(--font-family-second);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.4;
+    max-width: 513px;
+    margin-bottom: 20px;
+}
+
+.intro__subtitle {
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--color-gray-dark);
+    margin-bottom: 157px;
+}
+
+.intro__banner {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .intro {
+        background-image: none;
+        padding: 0;
+    }
+
+    .intro .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro__wrapper {
+        padding: 47px 25px 32px 24px;
+    }
+
+    .intro__title {
+        font-size: 24px;
+        max-width: 341px;
+        margin-bottom: 12px;
+    }
+
+    .intro__subtitle {
+        font-size: 16px;
+        margin-bottom: 32px;
+        color: var(--color-black);
+    }
+
+    .title__button {
+        width: 100%;
+    }
+
+    .intro__banner {
+        display: block;
+        height: 304px;
+        width: 100%;
+    }
+
+    /* тут при адаптиве меняется текст в intro__subtitle это вообще реально 0-0 */
+}
