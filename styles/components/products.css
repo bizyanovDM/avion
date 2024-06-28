@@ -1,0 +1,40 @@
+.products .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.products__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.products__heading {
+    font-family: var(--font-family-second);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-block: 24px 8px;
+}
+
+.products__cost {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 730px) {
+    .products__picture {
+        width: 163px;
+        height: 201px;
+    }
+
+    .products__button {
+        text-align: center;
+        width: 100%;
+    }
+}
