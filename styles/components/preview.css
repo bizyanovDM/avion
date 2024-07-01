@@ -10,6 +10,7 @@
 .preview__wrapper {
     background-color: var(--color-primary-dark);
     padding: 64px 75px 54px 64px;
+    max-height: 478px;
 }
 
 .preview__title {
