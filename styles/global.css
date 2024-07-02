@@ -23,7 +23,7 @@ body {
     margin-block: 20px;
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 930px) {
     .container, 
     .container_wide {
         --padding-inline: 24px;

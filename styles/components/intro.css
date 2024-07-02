@@ -36,8 +36,17 @@
     display: none;
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 935px) {
     .intro {
+        padding: 4em;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .intro {
+        flex-direction: column;
         background-image: none;
         padding: 0;
     }
@@ -59,8 +68,8 @@
 
     .intro__subtitle {
         font-size: 16px;
+        color: var(--color-primary-dark);
         margin-bottom: 32px;
-        color: var(--color-black);
     }
 
     .title__button {
@@ -69,8 +78,6 @@
 
     .intro__banner {
         display: block;
-        height: 304px;
-        width: 100%;
     }
 
     /* тут при адаптиве меняется текст в intro__subtitle это вообще реально 0-0 */
