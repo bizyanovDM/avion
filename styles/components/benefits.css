@@ -13,6 +13,7 @@
     font-size: 24px;
     line-height: 1.4;
     font-weight: 400;
+    margin-bottom: 36px;
 }
 
 .benefits__wrapper {
@@ -21,7 +22,6 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-    margin-top: 36px;
 }
 
 .benefits__card {
@@ -42,12 +42,33 @@
     font-size: 16px;
     line-height: 1.5;
     max-width: 209px;
+    color: var(--color-primary-dark);
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 935px) {
+
+    .benefits {
+        padding-block: 48px;
+    }
+
+    .benefits__card {
+        padding: 36px 24px;
+    }
+
+    .benefits__card-subtitle {
+        max-width: 294px;
+    }
+}
+
+
+@media screen and (max-width: 630px) {
+    .benefits__title {
+        max-width: 274px;
+        font-size: 20px;
+    }
+
     .benefits__card-subtitle {
         font-size: 16px;
         line-height: 1.5;
-        max-width: 100%;
     }
 }
