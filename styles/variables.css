@@ -1,19 +1,14 @@
 :root {
     /* Fonts */
-
     --font-family-primary: 'Satoshi', sans-serif;
     --font-family-second: 'Clash Display', sans-serif;
 
     /* Colors */
-
     --color-black: #22202e;
-
     --color-gray: #726e8d;
     --color-gray-light: #f9f9f9;
     --color-gray-dark: #5b5676;
-
     --color-white: #ffffff;
-
     --color-primary: #4E4D93;
     --color-primary-dark: #2A254B;
 }
