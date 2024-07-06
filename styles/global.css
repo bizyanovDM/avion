@@ -24,7 +24,9 @@ body {
 }
 
 @media screen and (max-width: 935px) {
-    .container, 
+    .container {
+        --padding-inline: 24px;
+    }
     .container_wide {
         --padding-inline: 24px;
     }
